@@ -1,0 +1,10 @@
+{
+  "tagPrefix": "v",
+  "commitLimit": 100,
+  "changelogFile": "CHANGELOG.md",
+  "releasePlanFile": "RELEASE_PLAN.md",
+  "release": {
+    "draft": false,
+    "prerelease": false
+  }
+}

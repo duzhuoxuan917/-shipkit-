@@ -1,0 +1,35 @@
+{
+  "name": "shipkit",
+  "version": "0.2.0",
+  "description": "A focused CLI for reviewable, repeatable GitHub releases.",
+  "type": "module",
+  "bin": {
+    "shipkit": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.js",
+    "dev": "tsx src/cli.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "github",
+    "release",
+    "changelog",
+    "cli",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
