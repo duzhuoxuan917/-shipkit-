@@ -1,0 +1,41 @@
+name: Request release setup
+description: Ask for help configuring ShipKit in a repository.
+title: "[Setup] "
+labels: [setup-request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include passwords, tokens, private source code, or other secrets here.
+  - type: dropdown
+    id: project-size
+    attributes:
+      label: Project type
+      options:
+        - Single repository
+        - Monorepo or multiple packages
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current-workflow
+    attributes:
+      label: Current release workflow
+      description: What do you currently do manually, and where does it cause problems?
+      placeholder: We update the version, write notes, and publish Docker images manually.
+    validations:
+      required: true
+  - type: textarea
+    id: desired-result
+    attributes:
+      label: Desired result
+      description: What would a successful setup automate for you?
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact method
+      description: Add an email or other contact method if you want a private quote. Do not add credentials.
+    validations:
+      required: false

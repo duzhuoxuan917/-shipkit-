@@ -97,6 +97,18 @@ The repository is the free core. A practical commercial offer is:
 
 Keep Pro additions in a private package or a hosted service. Do not put license keys or private customer code in the public repository.
 
+## Setup service
+
+Need help putting ShipKit into a real repository? I offer a fixed-scope setup service for small engineering teams:
+
+- Single repository: `RMB 2,999`
+- Monorepo or multi-package setup: `RMB 5,999+`
+- Includes configuration, documentation, one real release, and 7 days of fixes
+
+[Request a setup](https://github.com/duzhuoxuan917/-shipkit-/issues/new?template=setup_request.yml)
+
+Never include passwords, tokens, private source code, or other secrets in a public issue.
+
 ## Selling checklist
 
 1. Publish this repository with a short demo GIF and one example release.
