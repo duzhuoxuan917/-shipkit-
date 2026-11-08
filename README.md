@@ -1,5 +1,7 @@
 # ShipKit
 
+[![CI](https://github.com/duzhuoxuan917/-shipkit-/actions/workflows/ci.yml/badge.svg)](https://github.com/duzhuoxuan917/-shipkit-/actions/workflows/ci.yml)
+
 ShipKit is a small, predictable CLI for reviewable, repeatable GitHub releases. It turns conventional commits into grouped changelog notes, checks release readiness, writes a release plan, previews a release, and can publish a tag and GitHub Release when you explicitly ask it to.
 
 ## Why it exists
